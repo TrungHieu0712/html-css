@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+form{
+    margin: 10px auto;
+    width: 1200px;
+}
+.banner img{
+    width:100%;
+}
+ul{
+    display: flex;
+    gap:40px;
+}
+.menu li{
+    list-style-type: none;
+    color:white;
+    padding-top:2px;
+    
+}
+
+.menu{
+    background:orange;
+    padding:3px;
+}
+.main{
+    display:flex;
+    padding-top:10px;
+}
+.left-1 p, .left-1 h4,
+.left-2 p,
+.left-2 img{
+    padding: 5px;   
+    border: 1px solid gray;
+}
+.left-2{
+    padding-top:10px;
+}
+.left h4{
+    background: rgb(228, 80, 26);
+    color:white;
+    text-align: center;
+    padding: 3px;
+}
+.light{
+    text-align: center;
+}
+.anh{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    align-items: center;
+}
+.anh img{
+    height: 523px;
+}
+.mid{
+    padding: 0 5px 5px 10px;
+    height:500px;
+}
+.mid img{
+    border-radius: 10px;
+    width: 100%;
+}
+.mid h4{
+    background:orange;
+    color:white;
+    padding-left:10px;
+    padding:3px;
+}
+.mid-1{
+    display: flex;
+    padding:10px;
+    border: 1px solid gray;
+    border-top:none;
+}   
+.mid-1{
+    margin: 0 0 5px 0;
+    padding:5px;
+    gap:10px;
+}
+.card{
+    padding:10px;
+    background:rgb(237, 178, 157);
+    border-radius: 5px;
+    height:300px;
+    margin:10px;
+}
+.card img{
+    height:60%;
+    width:100%;
+}
+.card .content{
+    color:blue;
+    text-align: center;
+    font-size:18px; 
+    padding: 10px 0 10px 0;
+}
+.card .price{
+    color:red;
+    padding: 10px;
+    font-size:17px;
+}
+.right{
+    padding-left: 5px;
+}
+.right h4{
+    background: orange;
+    padding: 3px;
+    color:white;
+    text-align: center;
+}
+.right-1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.right-1 img{
+    width:50%;
+}
+.right-1 p{
+    color:red;
+    text-align: center;
+    padding:5px;
+}
+.right-1 .sdt{
+    color:blue;
+}
+.right-2, .right-3{
+    padding:10px 0 10px 0 ;
+}
+.right-2,
+.right-3{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.right-3 img{
+    height:132px;
+}
+.footer{
+    background:rgb(228, 80, 26);
+    display:flex;
+    color:white;
+    justify-content: space-around;
+    padding: 10px;
+    height: 300px;
+}
+.footer  p
+{
+    margin: 10px;
+}
+hr{
+    margin: 20px 0 20px 0;
+    width: 40%;
+}
+.cuoi{
+    text-align: center;
+    background:blue;
+    color:white;
+    padding:5px;
+}
+.main .right-1,
+.main .right-2,
+.right-3{
+    border: 1px solid gray;
+    border-top:none;
+    margin: 0 0 10px 0;
+    
+}
+.right-2 img,
+.right-3 img{
+    margin: 5px;
+}
+
+
