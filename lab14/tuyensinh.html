@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyen Sinh</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: 1200px;
+        margin: auto 30px;
+    }
+
+    nav {
+        display: flex;
+        padding: 5px;
+        background-color: violet;
+    }
+
+    nav img {
+        width: 10%;
+    }
+
+    ul {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    li {
+        list-style-type: none;
+        margin-top: 10px;
+        color: white;
+    }
+
+    .banner img {
+        width: 100%;
+    }
+
+    .card-1,
+    .card-2{
+        display: flex;
+    }
+
+    .card-box img {
+        width: 90%;
+    }
+
+    .box-card {
+        display: flex;
+    }
+    .card-left{
+        flex:3;
+    }
+    .card-right{
+        flex:1;
+        
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .box{
+        border: 6px double gray;
+        padding: 10px;
+        height: 100%;
+        
+    }
+    .box input{
+        width: 350px;    
+        height: 30px;
+    }
+    main{
+        padding-bottom: 10px;
+    }
+    footer{
+        display: flex;
+        background-color: violet;
+        height: 300px;
+        color: white;
+        padding: 20px 0 5px 0 ;
+        justify-content: space-around;
+
+    }
+    button{
+        width: 355px;   
+        height: 30px;
+        background-color: violet;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        
+    }
+    h4{
+        margin: 10px 0 10px 0;
+        font-size: 20px;
+    }
+    .box-card{
+        height: 100%;
+        
+    }
+    .card-right h3{
+        margin: 5px 0 5px 0;
+    }
+    input{
+        padding-left: 5px;
+        background-color: rgb(213, 213, 213);
+        border: none;
+    }
+    .left h3,
+    .mid h3,
+    .right h3{
+        margin: 10px 0;
+    }
+    footer p{
+        padding: 5px 0 5px 0;
+    }
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <img src="./imagelab10/logoitc.png">
+            <ul>
+                <li>Trang Chủ</li>
+                <li>truyển Sinh</li>
+                <li>Giới Thiệu</li>
+                <li>Sinh Viên</li>
+                <li>E-Learning</li>
+                <li>Tuyển Dụng</li>
+            </ul>
+        </nav>
+        <div class="banner">
+            <img src="./imagelab10/banner.jpg" alt="banner">
+        </div>
+    </header>
+    <main>
+        <div class="box-card">
+            <div class="card-left">
+                <h4>TIN ITC</h4>
+                <div class="card-1">
+                    <div class="card-box">
+                        <img src="./imagelab10/tinitc1.jpg" alt="1">
+                        <p>Nhộn nhịp không khí hồ sơ tại các trường CĐCNTT TP.HCM</p>
+                    </div>
+                    <div class="card-box">
+                        <img src="./imagelab10/tinitc2.jpg" alt="2">
+                        <p>Lễ ký kết thỏa thuận hợp tác</p>
+                    </div>
+                    <div class="card-box">
+                        <img src="./imagelab10/tinitc3.jpg" alt="3">
+                        <p>Sinh hoạt công dân đầu khóa</p>
+                    </div>
+                    <div class="card-box">
+                        <img src="./imagelab10/tinitc4.jpg" alt="4">
+                        <p>Đoái thoại giữa HSSV</p>
+                    </div>
+                </div>
+                <h4>Hoạt Động Sinh viên</h4>
+                <div class="card-2">
+                    <div class="card-box">
+                        <img src="./imagelab10/hdsv1.jpg" alt="1">
+                        <p>Sinh viên ITC tham gia ngày chay</p>
+                    </div>
+                    <div class="card-box">
+                        <img src="./imagelab10/hdsv2.png" alt="2">
+                        <p>Thông báo kế hoạch tổ chức chiến dịch xuân</p>
+                    </div>
+                    <div class="card-box">
+                        <img src="./imagelab10/hdsv3.jpg" alt="3">
+                        <p>Sinh Viên ITC với ngày hội</p>
+                    </div>
+                    <div class="card-box">
+                        <img src="./imagelab10/hdsv4.png" alt="4">
+                        <p>Thư cảm ơn hiến máu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-right">
+                <h4>Đăng ký xét tuyển</h4>
+                <div class="box">
+                    <h3>Họ tên</h3>
+                    <input type="text" placeholder="Họ và tên"><br>
+                    <h3>Số CMND/CCCD</h3>
+                    <input type="number" placeholder="Nhập số CMND/CCCD">
+                    <h3>Hệ đào tạo</h3>
+                    <input type="text" placeholder="Hệ đào tạo">
+                    <h3>Ngành đăng ký</h3>
+                    <input type="text" placeholder="Ngành đăng ký"><br>
+                    <button type="submit">Đăng Ký</button>
+                </div>
+            </div>
+
+        </div>
+        <h4>Các Hệ Đào Tạo</h4>
+        <div class="card-1">
+            <div class="card-box">
+                <img src="./imagelab10/hdt1.jpg" alt="1">
+                <p>THÔNG BÁO TUYỂN SINH</p>
+            </div>
+            <div class="card-box">
+                <img src="./imagelab10/hdt2.png" alt="2">
+                <p>Thông báo tuyển sinh chương trình</p>
+            </div>
+            <div class="card-box">
+                <img src="./imagelab10/hdt3.png" alt="3">
+                <p>Thông báo tuyển sinh cử nhân liên</p>
+            </div>
+            <div class="card-box">
+                <img src="./imagelab10/hdt4.png" alt="4">
+                <p>Khóa học thiết kế đồ họa</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="left">
+            <h3>Phòng Ban</h3>
+            <p>Phòng đào tạo</p>
+            <p>Phòng tài chính kế hoạch</p>
+            <p>Trung tâm ngoại ngữ - tin học</p>
+            <p>Phòng khảo thí ĐBCL</p>
+            <p>Phòng tuyển sinh & truyền thông</p>
+            <p>Phòng tổ chức hành chính</p>
+            <p>Phòng cộng tác sinh viên</p>
+            <p>Phòng quan hệ daonh nghiệp % hợp tác qquốc tế</p>
+            <p>Phòng quản lý mạng & thiết bị</p>
+            <p>Phòng thí nghiệm phần mền</p>
+        </div>
+        <div class="mid">
+            <h3>KHOA</h3>
+            <p>Công nghệ thông tin & điện tử</p>
+            <p>Khoa kinh tế</p>
+            <p>Trung cấp liên thông cao đẳng</p>
+        </div>
+        <div class="right">
+            <h3>LIÊN HỆ</h3>
+            <p>Địa chỉ</p>
+            <p>Phone:</p>
+            <p>Hotline:</p>
+            <p>Email: </p>
+            <p>Email: </p>
+        </div>
+    </footer>
+</body>
+
+</html>
